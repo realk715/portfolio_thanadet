@@ -3,11 +3,9 @@ const nextConfig = {
   images: {
     path: '/',
   },
-  output: {
-    export: true,
-  },
+  output: 'export',
   experimental: {
-    serverActions: true, 
+    serverActions: true,
   },
 };
 
