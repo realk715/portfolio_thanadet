@@ -3,6 +3,9 @@ module.exports = {
   experimental: {
     serverActions: true,
   },
+    images: {
+      path: 'public//',
+    },
 };
 
 
