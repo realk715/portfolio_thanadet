@@ -4,7 +4,7 @@ module.exports = {
     serverActions: true,
   },
     images: {
-      path: 'public//',
+      path: '/public/',
     },
 };
 
