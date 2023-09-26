@@ -6,6 +6,9 @@ const nextConfig = {
   output: {
     export: true,
   },
+  experimental: {
+    serverActions: true, 
+  },
 };
 
 module.exports = nextConfig;
