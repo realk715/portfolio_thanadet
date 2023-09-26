@@ -1,11 +1,11 @@
-module.exports = {
-  exportTrailingSlash: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    path: '/',
+  },
   experimental: {
     serverActions: true,
   },
-    images: {
-      path: '/public/',
-    },
 };
 
-
+module.exports = nextConfig;
