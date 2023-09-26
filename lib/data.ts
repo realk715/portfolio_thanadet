@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import project1 from "../public/images/Colmar_project.png"
-import project2 from '../public/images/todolist_project.png'
-import project3 from '../public/images/ciniverse_project.png'
+import project1 from "@/public/images/Colmar_project.png"
+import project2 from '@/public/images/todolist_project.png'
+import project3 from '@/public/images/ciniverse_project.png'
 
 export const links = [
   {
