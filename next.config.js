@@ -3,8 +3,8 @@ const nextConfig = {
   images: {
     path: '/',
   },
-  experimental: {
-    serverActions: true,
+  output: {
+    export: true,
   },
 };
 
