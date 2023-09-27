@@ -31,13 +31,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/images/profile.jpg"
+              src="/images/profile1.jpg"
               alt="Thanadet Klinsuban"
-              width="300"
-              height="300"
+              width="200"
+              height="200"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
