@@ -19,7 +19,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Educational",
     hash: "#experience",
   },
   {
@@ -34,9 +34,9 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Studied",
+    title: "Educational experience",
     description:
-      "I am studying in the Faculty of Economics at the university, and in addition, I am learning about crypto, NFTs, and GameFi to generate income simultaneously",
+      "While I was studying in the Faculty of Economics at the university, I generated income from crypto, NFTs, and GameFi.",
     icon: React.createElement(LuGraduationCap),
     date: "2018-2022",
   },

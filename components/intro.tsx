@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/images/profile.jpg"
+              src="/images/profile2.jpg"
               alt="Thanadet Klinsuban"
               width="300"
               height="300"
@@ -77,7 +77,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          href="/CV.pdf"
+          href="/CV_Thanadet.pdf"
           download
         >
           Download CV{" "}
@@ -86,7 +86,7 @@ export default function Intro() {
 
         <a
           className=" p-4  hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/thanadet715/"
           target="_blank"
         >
           <BsLinkedin />
