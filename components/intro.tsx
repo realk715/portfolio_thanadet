@@ -18,9 +18,9 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[53rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="pt-6 pb-4 sm:pt-10 sm:pb-4 max-w-[53rem] text-center scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mb-6">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -37,23 +37,27 @@ export default function Intro() {
               height="300"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-52 w-52 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
         </div>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+      <motion.div
+        className="mb-8 px-4"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">I'm Thanadet.</span> I'm a
-        <span className="font-bold"> Junior full-stack developer</span> with
-        building <span className="italic">websites & servers</span>
-       
-      </motion.h1>
+        <h1 className="text-3xl sm:text-5xl font-bold leading-tight mb-2">
+          Thanadet Klinsuban
+        </h1>
+        <p className="text-lg sm:text-xl text-white/70 font-normal tracking-wide">
+          Economist · Policy Analyst · Digital Finance Researcher
+        </p>
+        <p className="text-sm sm:text-base text-white/50 font-normal mt-2">
+          First-Class Honours in Economics &nbsp;·&nbsp; 5+ years in Digital Asset Markets & DeFi &nbsp;·&nbsp; TOEIC 855
+        </p>
+      </motion.div>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

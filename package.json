@@ -6,9 +6,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export"  
-},
+    "export": "next export"
+  },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "^0.0.8",
     "@types/node": "20.3.2",
