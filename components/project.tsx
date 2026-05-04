@@ -6,7 +6,13 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FaGithubSquare } from "react-icons/fa";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = {
+  title: string;
+  description: string;
+  tags: readonly string[];
+  imageUrl: string;
+  git: string;
+};
 
 export default function Project({
   title,
